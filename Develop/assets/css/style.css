@@ -8,13 +8,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Properties of header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* header 1 will display as inline-block with a font size of 48px */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero section style. This is the large picture on the webside.*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +61,7 @@ p {
     background-position: center;
 }
 
+/* float determines wether an element is on the right or left side of its container. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +72,14 @@ p {
     margin-left: 25px;
 }
 
+/* content section. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -187,7 +192,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* footer section */
 .footer {
     padding: 30px;
     clear: both;
