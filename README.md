@@ -12,4 +12,4 @@ https://kaylommy.github.io/module-1-challenge/Develop/
 
 ## Screenshot
 
-![alt text](Develop/assets/images/screenshot.png "Website")
+![alt text](assets/images/screenshot.png "Website")
