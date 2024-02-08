@@ -8,4 +8,4 @@ First homework assignment for UCONN bootcamp.
 
 ## Screenshot
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/images/screenshot.png?raw=true "Website")
