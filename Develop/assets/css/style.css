@@ -1,14 +1,15 @@
+/* universal selector applies these properties to the whole website */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* background color of website */
 body {
     background-color: #d9dcd6;
 }
 
-/* . */
+/* header properties. Header will have padding of 20px. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,6 +26,8 @@ body {
     color: #d9dcd6;
 }
 
+/* the navigation bar has a padding of 15px, a margin to the right 20px, and floats to the right.
+The class used to be div however changed to nav to be more semantic */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -72,14 +75,14 @@ p {
     margin-left: 25px;
 }
 
-/* content. */
+/* content. The content section applies to everything in the main element in HTML file. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* benefits */
+/* benefits section. Everything in this section will have the below properties. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -138,7 +141,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* the classes underneath will apply css to each section and image */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -192,7 +195,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* footer*/
+/* footer applies to the bottom of the page and includes css for the page padding and for the font.*/
 .footer {
     padding: 30px;
     clear: both;
